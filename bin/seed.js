@@ -1,4 +1,4 @@
-const { pool, dropReportsTable, createReportsTable } = require('../src/db');
+import { pool, dropReportsTable, createReportsTable } from '../src/db.js';
 
 async function main() {
   console.log(`Dropping Tables`);
