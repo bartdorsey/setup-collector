@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "juicebox-dev",
+            "username": "echo",
+            "database": "juicebox-dev",
+            "password": ""
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "setup-collector",
+            "database": "setup-collector",
+            "username": "ubuntu",
+            "password": ""
+        }
+    ]
+}
